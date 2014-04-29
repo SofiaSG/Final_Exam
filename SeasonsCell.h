@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  SeasonsCell.h
 //  Final_Exam
 //
 //  Created by Sofia Garcia Ramos on 4/29/14.
@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface SeasonsCell : UITableViewCell
+@property (strong, nonatomic) IBOutlet UILabel *Lb_season;
 
 @end

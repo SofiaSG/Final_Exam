@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		790B9728191029C6007C64F7 /* cuerpo.png in Resources */ = {isa = PBXBuildFile; fileRef = 790B9727191029C6007C64F7 /* cuerpo.png */; };
+		790B972C19103123007C64F7 /* SeasonsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 790B972B19103123007C64F7 /* SeasonsCell.m */; };
+		790B972E19103502007C64F7 /* mexico.png in Resources */ = {isa = PBXBuildFile; fileRef = 790B972D19103502007C64F7 /* mexico.png */; };
 		79C668AC1910186C00F7DC12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C668AB1910186C00F7DC12 /* Foundation.framework */; };
 		79C668AE1910186C00F7DC12 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C668AD1910186C00F7DC12 /* CoreGraphics.framework */; };
 		79C668B01910186C00F7DC12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C668AF1910186C00F7DC12 /* UIKit.framework */; };
@@ -14,14 +17,16 @@
 		79C668B81910186C00F7DC12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C668B71910186C00F7DC12 /* main.m */; };
 		79C668BC1910186C00F7DC12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C668BB1910186C00F7DC12 /* AppDelegate.m */; };
 		79C668BF1910186C00F7DC12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79C668BD1910186C00F7DC12 /* Main.storyboard */; };
-		79C668C21910186C00F7DC12 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C668C11910186C00F7DC12 /* FirstViewController.m */; };
-		79C668C51910186C00F7DC12 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C668C41910186C00F7DC12 /* SecondViewController.m */; };
+		79C668C21910186C00F7DC12 /* BodyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C668C11910186C00F7DC12 /* BodyViewController.m */; };
+		79C668C51910186C00F7DC12 /* SeasonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C668C41910186C00F7DC12 /* SeasonsViewController.m */; };
 		79C668C71910186D00F7DC12 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79C668C61910186D00F7DC12 /* Images.xcassets */; };
 		79C668CE1910186D00F7DC12 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C668CD1910186D00F7DC12 /* XCTest.framework */; };
 		79C668CF1910186D00F7DC12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C668AB1910186C00F7DC12 /* Foundation.framework */; };
 		79C668D01910186D00F7DC12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C668AF1910186C00F7DC12 /* UIKit.framework */; };
 		79C668D81910186D00F7DC12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79C668D61910186D00F7DC12 /* InfoPlist.strings */; };
 		79C668DA1910186D00F7DC12 /* Final_ExamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C668D91910186D00F7DC12 /* Final_ExamTests.m */; };
+		79C668F319101D2200F7DC12 /* StatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C668F219101D2200F7DC12 /* StatesViewController.m */; };
+		79C668F619101E1600F7DC12 /* ColorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C668F519101E1600F7DC12 /* ColorsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		790B9727191029C6007C64F7 /* cuerpo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cuerpo.png; path = ../cuerpo.png; sourceTree = "<group>"; };
+		790B972A19103123007C64F7 /* SeasonsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SeasonsCell.h; path = ../SeasonsCell.h; sourceTree = "<group>"; };
+		790B972B19103123007C64F7 /* SeasonsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SeasonsCell.m; path = ../SeasonsCell.m; sourceTree = "<group>"; };
+		790B972D19103502007C64F7 /* mexico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mexico.png; path = ../mexico.png; sourceTree = "<group>"; };
 		79C668A81910186C00F7DC12 /* Final_Exam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Final_Exam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C668AB1910186C00F7DC12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		79C668AD1910186C00F7DC12 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,16 +55,20 @@
 		79C668BA1910186C00F7DC12 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		79C668BB1910186C00F7DC12 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		79C668BE1910186C00F7DC12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		79C668C01910186C00F7DC12 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		79C668C11910186C00F7DC12 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		79C668C31910186C00F7DC12 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		79C668C41910186C00F7DC12 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		79C668C01910186C00F7DC12 /* BodyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BodyViewController.h; sourceTree = "<group>"; };
+		79C668C11910186C00F7DC12 /* BodyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BodyViewController.m; sourceTree = "<group>"; };
+		79C668C31910186C00F7DC12 /* SeasonsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeasonsViewController.h; sourceTree = "<group>"; };
+		79C668C41910186C00F7DC12 /* SeasonsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeasonsViewController.m; sourceTree = "<group>"; };
 		79C668C61910186D00F7DC12 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		79C668CC1910186D00F7DC12 /* Final_ExamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Final_ExamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C668CD1910186D00F7DC12 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		79C668D51910186D00F7DC12 /* Final_ExamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Final_ExamTests-Info.plist"; sourceTree = "<group>"; };
 		79C668D71910186D00F7DC12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		79C668D91910186D00F7DC12 /* Final_ExamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Final_ExamTests.m; sourceTree = "<group>"; };
+		79C668F119101D2200F7DC12 /* StatesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StatesViewController.h; path = ../StatesViewController.h; sourceTree = "<group>"; };
+		79C668F219101D2200F7DC12 /* StatesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StatesViewController.m; path = ../StatesViewController.m; sourceTree = "<group>"; };
+		79C668F419101E1600F7DC12 /* ColorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorsViewController.h; path = ../ColorsViewController.h; sourceTree = "<group>"; };
+		79C668F519101E1600F7DC12 /* ColorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorsViewController.m; path = ../ColorsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +95,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		790B9729191029CD007C64F7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				790B972D19103502007C64F7 /* mexico.png */,
+				790B9727191029C6007C64F7 /* cuerpo.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		79C6689F1910186C00F7DC12 = {
 			isa = PBXGroup;
 			children = (
@@ -115,13 +137,13 @@
 		79C668B11910186C00F7DC12 /* Final_Exam */ = {
 			isa = PBXGroup;
 			children = (
-				79C668BA1910186C00F7DC12 /* AppDelegate.h */,
-				79C668BB1910186C00F7DC12 /* AppDelegate.m */,
+				790B9729191029CD007C64F7 /* Images */,
+				79C668E31910187A00F7DC12 /* AppDelegate */,
 				79C668BD1910186C00F7DC12 /* Main.storyboard */,
-				79C668C01910186C00F7DC12 /* FirstViewController.h */,
-				79C668C11910186C00F7DC12 /* FirstViewController.m */,
-				79C668C31910186C00F7DC12 /* SecondViewController.h */,
-				79C668C41910186C00F7DC12 /* SecondViewController.m */,
+				79C668E41910189900F7DC12 /* Body */,
+				79C668E5191018C800F7DC12 /* Seasons */,
+				79C668EC19101A7100F7DC12 /* States */,
+				79C668ED19101A7E00F7DC12 /* Colors */,
 				79C668C61910186D00F7DC12 /* Images.xcassets */,
 				79C668B21910186C00F7DC12 /* Supporting Files */,
 			);
@@ -155,6 +177,53 @@
 				79C668D61910186D00F7DC12 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79C668E31910187A00F7DC12 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				79C668BA1910186C00F7DC12 /* AppDelegate.h */,
+				79C668BB1910186C00F7DC12 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		79C668E41910189900F7DC12 /* Body */ = {
+			isa = PBXGroup;
+			children = (
+				79C668C01910186C00F7DC12 /* BodyViewController.h */,
+				79C668C11910186C00F7DC12 /* BodyViewController.m */,
+			);
+			name = Body;
+			sourceTree = "<group>";
+		};
+		79C668E5191018C800F7DC12 /* Seasons */ = {
+			isa = PBXGroup;
+			children = (
+				79C668C31910186C00F7DC12 /* SeasonsViewController.h */,
+				79C668C41910186C00F7DC12 /* SeasonsViewController.m */,
+				790B972A19103123007C64F7 /* SeasonsCell.h */,
+				790B972B19103123007C64F7 /* SeasonsCell.m */,
+			);
+			name = Seasons;
+			sourceTree = "<group>";
+		};
+		79C668EC19101A7100F7DC12 /* States */ = {
+			isa = PBXGroup;
+			children = (
+				79C668F119101D2200F7DC12 /* StatesViewController.h */,
+				79C668F219101D2200F7DC12 /* StatesViewController.m */,
+			);
+			name = States;
+			sourceTree = "<group>";
+		};
+		79C668ED19101A7E00F7DC12 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				79C668F419101E1600F7DC12 /* ColorsViewController.h */,
+				79C668F519101E1600F7DC12 /* ColorsViewController.m */,
+			);
+			name = Colors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,9 +302,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				790B972E19103502007C64F7 /* mexico.png in Resources */,
 				79C668C71910186D00F7DC12 /* Images.xcassets in Resources */,
 				79C668B61910186C00F7DC12 /* InfoPlist.strings in Resources */,
 				79C668BF1910186C00F7DC12 /* Main.storyboard in Resources */,
+				790B9728191029C6007C64F7 /* cuerpo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,9 +325,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79C668C51910186C00F7DC12 /* SecondViewController.m in Sources */,
+				79C668F619101E1600F7DC12 /* ColorsViewController.m in Sources */,
+				79C668F319101D2200F7DC12 /* StatesViewController.m in Sources */,
+				79C668C51910186C00F7DC12 /* SeasonsViewController.m in Sources */,
 				79C668BC1910186C00F7DC12 /* AppDelegate.m in Sources */,
-				79C668C21910186C00F7DC12 /* FirstViewController.m in Sources */,
+				79C668C21910186C00F7DC12 /* BodyViewController.m in Sources */,
+				790B972C19103123007C64F7 /* SeasonsCell.m in Sources */,
 				79C668B81910186C00F7DC12 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,6 +540,7 @@
 				79C668DF1910186D00F7DC12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79C668E01910186D00F7DC12 /* Build configuration list for PBXNativeTarget "Final_ExamTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +549,7 @@
 				79C668E21910186D00F7DC12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+NSArray     *astr__Seasons;
+
+@interface SeasonsViewController : UIViewController <UITableViewDataSource, UITableViewDelegate >
+
+
+@property (strong, nonatomic) IBOutlet UIWebView *webview;
+
 
 @end

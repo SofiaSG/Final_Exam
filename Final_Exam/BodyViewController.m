@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Sofia Garcia Ramos. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "BodyViewController.h"
 
-@interface FirstViewController ()
+@interface BodyViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation BodyViewController
 
 - (void)viewDidLoad
 {
@@ -26,4 +26,21 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)Btn_cabeza:(id)sender {
+}
+
+- (IBAction)Btn_codo:(id)sender {
+}
+
+- (IBAction)Btn_pierna:(id)sender {
+}
+
+- (IBAction)Btn_rodilla:(id)sender {
+}
+
+- (IBAction)Btn_torax:(id)sender {
+}
+
+- (IBAction)Btn_pie:(id)sender {
+}
 @end
